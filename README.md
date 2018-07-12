@@ -1,6 +1,3 @@
-![statful](https://avatars1.githubusercontent.com/u/20299158?v=3&s=200)
-![koa](https://github.com/koajs/koa/raw/master/docs/logo.png)
-
 # statful-middleware-koa
 
 A common pattern in koa applications it to gather response times from all received requests, this middleware takes care of collecting common useful metrics automatically.
