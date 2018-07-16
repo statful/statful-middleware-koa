@@ -1,6 +1,6 @@
 {
   "name": "statful-middleware-koa",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Koa middleware to automatically register Statful metrics.",
   "main": "./src/index.js",
   "scripts": {
@@ -17,8 +17,8 @@
   },
   "homepage": "https://github.com/statful/statful-middleware-koa#readme",
   "devDependencies": {
-    "jest": "^23.4.0",
-    "jest-cli": "^23.4.0",
+    "jest": "^23.4.1",
+    "jest-cli": "^23.4.1",
     "koa": "^2.5.2"
   },
   "peerDependencies": {

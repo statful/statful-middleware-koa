@@ -11,7 +11,8 @@ module.exports = statful => async (ctx, next) => {
       hostname: ctx.hostname,
       method: ctx.method,
       statusCode: ctx.status,
-      statusCodeCategory: getStatusCategory(ctx.status)
+      statusCodeCategory: getStatusCategory(ctx.status),
+      route: ctx._matchedRoute
     }
   });
 };

@@ -12,7 +12,8 @@ describe("Middleware", () => {
     const ctx = {
       hostname: "localhost",
       method: "GET",
-      status: 200
+      status: 200,
+      _matchedRoute: '/post/:id'
     };
 
     spyOn(statful, "timer");
@@ -26,7 +27,8 @@ describe("Middleware", () => {
           hostname: "localhost",
           method: "GET",
           statusCode: 200,
-          statusCodeCategory: "success"
+          statusCodeCategory: "success",
+          route: '/post/:id'
         }
       }
     );
