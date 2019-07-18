@@ -24,4 +24,4 @@ Must be executed in the following order
 1. login into npm in a terminal window ```npm login```
 2. run ```npm publish```
 
-Check the [statful-client-javascript](https://www.npmjs.com/package/statful-client-javascript) on NPM to verify that the newly created version is available. 
+Check the [statful-middleware-koa](https://www.npmjs.com/package/statful-middleware-koa) on NPM to verify that the newly created version is available. 
