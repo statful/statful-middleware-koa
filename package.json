@@ -1,6 +1,6 @@
 {
   "name": "statful-middleware-koa",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Koa middleware to automatically register Statful metrics.",
   "main": "./src/index.js",
   "scripts": {
