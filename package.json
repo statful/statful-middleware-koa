@@ -17,8 +17,8 @@
   },
   "homepage": "https://github.com/statful/statful-middleware-koa#readme",
   "devDependencies": {
-    "jest": "^24.5.0",
-    "jest-cli": "^24.5.0",
+    "jest": "^24.9.0",
+    "jest-cli": "^24.9.0",
     "koa": "^2.7.0"
   },
   "peerDependencies": {
@@ -26,5 +26,8 @@
   },
   "engines": {
     "node": ">=8.11.3"
+  },
+  "dependencies": {
+    "node-notifier": "^5.4.5"
   }
 }
