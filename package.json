@@ -17,14 +17,18 @@
   },
   "homepage": "https://github.com/statful/statful-middleware-koa#readme",
   "devDependencies": {
-    "jest": "^24.5.0",
-    "jest-cli": "^24.5.0",
-    "koa": "^2.7.0"
+    "jest": "^24.9.0",
+    "jest-cli": "^24.9.0",
+    "koa": "^2.7.0",
+    "reinstall-node-modules": "^2.0.0"
   },
   "peerDependencies": {
     "statful-client": "4.3.4"
   },
   "engines": {
     "node": ">=8.11.3"
+  },
+  "dependencies": {
+    "node-notifier": ">=8.0.1"
   }
 }
