@@ -29,6 +29,7 @@
     "node": ">=8.11.3"
   },
   "dependencies": {
-    "node-notifier": ">=8.0.1"
+    "node-notifier": ">=8.0.1",
+    "merge": ">=2.1.1"
   }
 }
